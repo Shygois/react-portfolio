@@ -25,7 +25,7 @@ function Nav() {
         <header>
             <h2>
                 <a href="/">
-                    React Portfolio!
+                    Shy's React Portfolio!
                 </a>
             </h2>
             <nav>
