@@ -9,18 +9,18 @@ function Portfolio() {
 
     const projects = [
         {
-            name: "Project 1",
-            description: "Photos and links to projects",
+            name: "Wine & Dine",
+            description: "Wine and Dine is an application built to help users pair wine with food.",
             thumbnail: WineDine,
-            githubUrl: "",
-            appUrl: "",
+            githubUrl: "https://github.com/UCB-Bootcamp/wine-and-dine",
+            appUrl: "https://ucb-bootcamp.github.io/wine-and-dine/",
         },
         {
-            name: "Project 2",
-            description: "See past and current work experience",
+            name: "masterTicket",
+            description: "masterTicket is the place to find music events for you.",
             thumbnail: MasterTicket,
-            githubUrl: "",
-            appUrl: "",
+            githubUrl: "https://github.com/UCB-Bootcamp/masterTicket",
+            appUrl: "https://masterticket.herokuapp.com/",
         },
         {
             name: "Project 3",
@@ -41,8 +41,7 @@ function Portfolio() {
             projects.map((project, index) => {
                 return (
                     <Card key={index} style={{ width: '18rem' }}>
-                    {/* // link will go to appUrl */}
-                        <a href=""><Card.Img variant="top" src={project.thumbnail} /></a>
+                        <a href={project.appUrl}><Card.Img variant="top" src={project.thumbnail} /></a>
                         <Card.Body>
                             <Card.Title>{project.name}</Card.Title>
                             <Card.Text>
