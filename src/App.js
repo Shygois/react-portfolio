@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-// import Resume from './components/Resume';
+import Resume from './components/Resume';
 import ContactForm from './components/Contact';
 
 
@@ -31,7 +31,7 @@ function App() {
                 <Portfolio />
               </Route>
               <Route path="/resume">
-                {/* <Resume /> */}
+                <Resume />
               </Route>
               <Route path="/contact">
                 <ContactForm />
