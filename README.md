@@ -1,57 +1,46 @@
-### User Story
-AS AN employer looking for candidates with experience building single-page applications
+## Table of Contents 
+[Description](#description)
 
-I WANT to view a potential employee's deployed React portfolio of work samples
+[Usage](#usage)
 
-SO THAT I can assess whether they're a good candidate for an open position
 
-### Acceptance Criteria
-GIVEN a single-page application portfolio for a web developer
+## Basic Information
+Shayana Gois
 
-WHEN I load the portfolio
+shayana.gois@att.net
+  
 
-THEN I am presented with a page containing a header, a section for content, and a footer
+### GitHub Project Information
+GitHub Username: Shygois
+  
+Project Title: react-portfolio
+  
+Project Link: https://github.com/Shygois/react-portfolio
 
-WHEN I view the header
 
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+<a name="description"></a>
+### Description
+React portfolio so employers can learn more about me and see my projects.
 
-WHEN I view the navigation titles
 
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+<a name="usage"></a>
+Deployed link: https://shygois.github.io/react-portfolio/
 
-WHEN I click on a navigation title
+When user selects the link they will be directed to portfolio's home page:
+![image](https://user-images.githubusercontent.com/77821135/124032782-e20cee80-d9ad-11eb-9fa9-d9989b57c7ae.png)
 
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+From there the user will select the About Me page to learn more about me:
+![image](https://user-images.githubusercontent.com/77821135/124032894-108ac980-d9ae-11eb-8ab5-4e88e500efd4.png)
 
-WHEN I load the portfolio the first time
+Next the user will select the Portfolio page to see six of my projects. If the user clicks the image they'll be directed to the deployed app. If they click the button they'll be directed to the repo for this project:
+![image](https://user-images.githubusercontent.com/77821135/124033054-4f208400-d9ae-11eb-999f-b964a7ca9bda.png)
 
-THEN the About Me title and section are selected by default
+Next the user will select the Resume page to see my experience:
+![image](https://user-images.githubusercontent.com/77821135/124033202-82631300-d9ae-11eb-9147-f05b23f3ed1a.png)
 
-WHEN I am presented with the About Me section
+Lastly, if the user selects the Contact Me page they will be directed to a contact form where they can reach out to me:
+![image](https://user-images.githubusercontent.com/77821135/124033278-a0c90e80-d9ae-11eb-9eef-641f2b3c4ccd.png)
 
-THEN I see a recent photo or avatar of the developer and a short bio about them
 
-WHEN I am presented with the Portfolio section
+ 
 
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
-
-WHEN I am presented with the Contact section
-
-THEN I see a contact form with fields for a name, an email address, and a message
-
-WHEN I move my cursor out of one of the form fields without entering text
-
-THEN I receive a notification that this field is required
-
-WHEN I enter text into the email address field
-
-THEN I receive a notification if I have entered an invalid email address
-
-WHEN I am presented with the Resume section
-
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-
-WHEN I view the footer
-
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
