@@ -3,7 +3,10 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import WineDine from '../../assets/images/wine-and-dine.jpg';
 import MasterTicket from '../../assets/images/masterTicket.JPG';
-import GitHub from '../../assets/images/github.jpg';
+import TechBlog from '../../assets/images/techblog.JPG';
+import NoteTaker from '../../assets/images/notetaker.JPG';
+import WeatherDashboard from '../../assets/images/weatherdash.JPG';
+import CalendarApp from '../../assets/images/WorkdayScheduler.JPG';
 
 function Portfolio() {
 
@@ -23,11 +26,32 @@ function Portfolio() {
             appUrl: "https://masterticket.herokuapp.com/",
         },
         {
-            name: "Project 3",
-            description: "Contact information",
-            thumbnail: GitHub,
-            githubUrl: "",
-            appUrl: "",
+            name: "Tech Blog",
+            description: "Tech blog site where developers can publish their own blog posts and comment on others.",
+            thumbnail: TechBlog,
+            githubUrl: "https://github.com/Shygois/tech-blog",
+            appUrl: "https://desolate-chamber-64920.herokuapp.com/",
+        },
+        {
+            name: "Note Taker",
+            description: "App that allows users to add, and edit notes.",
+            thumbnail: NoteTaker,
+            githubUrl: "https://github.com/Shygois/Note-taker",
+            appUrl: "https://intense-garden-81829.herokuapp.com/",
+        },
+        {
+            name: "Weather Dashboard",
+            description: "For travelers who want to see the weather for multiple cities in order to plan a trip accordingly.",
+            thumbnail: WeatherDashboard,
+            githubUrl: "https://github.com/Shygois/weather-dashboard",
+            appUrl: "https://shygois.github.io/weather-dashboard/",
+        },
+        {
+            name: "Work Day Scheduler",
+            description: "Calendar app that allows users to create a daily schedule.",
+            thumbnail: CalendarApp,
+            githubUrl: "https://github.com/Shygois/calendar-app",
+            appUrl: "https://shygois.github.io/calendar-app/",
         },
     ];
 
