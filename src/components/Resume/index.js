@@ -11,61 +11,46 @@ function Resume() {
             <h4>Front End:</h4>
             <ul>
                 <li>
-                    text
+                    HTML 
                 </li>
                 <li>
-                    text
+                    CSS
                 </li>
                 <li>
-                    text
+                    JavaScript 
                 </li>
                 <li>
-                    text
+                    Github 
                 </li>
                 <li>
-                    text
+                    jQuery
                 </li>
                 <li>
-                    text
+                    Responsive Design
                 </li>
                 <li>
-                    text
+                    Bootstrap
                 </li>
                 <li>
-                    text
-                </li>
-                <li>
-                    text
+                    React
                 </li>
             </ul>
             <h4>Back End:</h4>
             <ul>
                 <li>
-                    text
+                    APIs
                 </li>
                 <li>
-                    text
+                    MySQL, Sequelize
                 </li>
                 <li>
-                    text
+                    Node
                 </li>
                 <li>
-                    text
+                    Express
                 </li>
                 <li>
-                    text
-                </li>
-                <li>
-                    text
-                </li>
-                <li>
-                    text
-                </li>
-                <li>
-                    text
-                </li>
-                <li>
-                    text
+                    MongoDB, mongoose
                 </li>
             </ul>
         </div>
