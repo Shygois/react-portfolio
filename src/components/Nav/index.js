@@ -6,9 +6,9 @@ function Nav() {
     return (
         <header>
             <h2>
-                <a href="/">
+                <Link to="/">
                     Shy's React Portfolio!
-                </a>
+                </Link>
             </h2>
             <nav>
                 <ul className="flex-row">
