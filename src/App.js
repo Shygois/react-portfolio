@@ -17,9 +17,9 @@ function App() {
 
   return (
     <div>
-      <Nav></Nav>
       <main>
         <Router>
+        <Nav></Nav>
           <div>
             {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
