@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
 
@@ -12,24 +13,24 @@ function Nav() {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a href="/about">
+                        <Link to="/about">
                             About me
-                        </a>
+                        </Link>
                     </li>
                     <li className="mx-2">
-                        <a href="/portfolio">
+                        <Link to="/portfolio">
                             Portfolio
-                        </a>
+                        </Link>
                     </li>
                     <li className="mx-2">
-                        <a href="/resume">
+                        <Link to="/resume">
                             Resume
-                        </a>
+                        </Link>
                     </li>
                     <li className="mx-2">
-                        <a href="/contact">
+                        <Link to="/contact">
                             Contact Me
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
