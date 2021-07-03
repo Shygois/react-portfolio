@@ -1,36 +1,36 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Nav() {
 
     return (
         <header>
             <h2>
-                <Link to="react-portfolio/">
+                <NavLink to="/">
                     Shy's React Portfolio!
-                </Link>
+                </NavLink>
             </h2>
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <Link to="react-portfolio/about">
+                        <NavLink to="/about">
                             About me
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="mx-2">
-                        <Link to="react-portfolio/portfolio">
+                        <NavLink to="/portfolio">
                             Portfolio
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="mx-2">
-                        <Link to="react-portfolio/resume">
+                        <NavLink to="/resume">
                             Resume
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="mx-2">
-                        <Link to="react-portfolio/contact">
+                        <NavLink to="/contact">
                             Contact Me
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
             </nav>
