@@ -7,7 +7,7 @@ import TechBlog from '../../assets/images/techblog.JPG';
 import NoteTaker from '../../assets/images/notetaker.JPG';
 import WeatherDashboard from '../../assets/images/weatherdash.JPG';
 import CalendarApp from '../../assets/images/WorkdayScheduler.JPG';
-import MasterTicketTwo from '../../assets/images/MasterTicketTwo.JPG';
+import MasterTicketTwo from '../../assets/images/masterTicketTwo.JPG';
 
 function Portfolio() {
 
