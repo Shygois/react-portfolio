@@ -7,10 +7,18 @@ import TechBlog from '../../assets/images/techblog.JPG';
 import NoteTaker from '../../assets/images/notetaker.JPG';
 import WeatherDashboard from '../../assets/images/weatherdash.JPG';
 import CalendarApp from '../../assets/images/WorkdayScheduler.JPG';
+import MasterTicket2 from '../../assets/images/masterTicket2.JPG';
 
 function Portfolio() {
 
     const projects = [
+        {
+            name: "masterTicket2.0",
+            description: "masterTicket2.0 is an updated version of masterTicket and continues to be the place to find music events for you.",
+            thumbnail: MasterTicket2,
+            githubUrl: "https://github.com/UCB-Bootcamp/masterTicket2.0",
+            appUrl: "https://masterticket2.herokuapp.com/",
+        },
         {
             name: "Wine & Dine",
             description: "Wine and Dine is an application built to help users pair wine with food.",
